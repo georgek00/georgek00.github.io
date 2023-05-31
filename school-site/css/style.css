@@ -1,0 +1,241 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/* Layout */
+
+main {
+    overflow:auto;
+    min-width:45rem;
+    
+}
+
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+.long-list {
+    margin-top:0;
+}
+
+nav {
+    float: left;
+    width:11.25rem;
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: .125rem solid #33658A;
+  border-bottom: .125rem solid #33658A;
+}
+
+/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
+
+/* NO changes should be made to any of the code above. */
+
+/* NOTE: While you will be using some of the same CSS properties, the VALUES 
+   may need to be different in order to style the page correctly. */
+
+
+
+/* Imported Typfaces */
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+/* Typography Styles */
+html {
+    font-family: montserrat;
+}
+
+h1 {
+    letter-spacing: 0.125;
+    font-family: josefinslab;
+    font-size: 3.75;
+    margin: 1.125;
+    text-align: center;
+
+}
+
+h2 {
+    letter-spacing: 0.125;
+    font-family: josefinslab;
+    font-size: 1.5;
+
+
+}
+
+h2 + p {
+    letter-spacing: 0.125;
+    font-family: josefinslab;
+    text-indent: 1.5;
+}
+
+p {
+    font-size: 0.75;
+    letter-spacing: 0.03125;
+    word-spacing: 0.125;
+}
+
+li {
+    font-size: 0.75;
+    letter-spacing: 0.03125;
+    word-spacing: 0.125;
+}
+
+figcaption {
+    font-size: 0.75;
+    margin-bottom: 2;
+
+}
+
+/* Link Styling */
+
+a {
+    outline: none;
+    foreground-color:#33658A;
+}
+
+a:link,
+a:visited {
+    outline: none;
+    foreground-color:#33658A;
+}
+
+a:focus,{text-decoration: none;}
+a:hover {
+    outline: none;
+    foreground-color:#33658A;
+
+}
+
+/* List Styling */
+
+ul {
+    font-size: 0.75;
+    letter-spacing: 0.03125;
+    word-spacing: 0.125;
+    margin-top: 1;
+    margin-bottom:1 ;
+    margin-left: 0;
+    margin-right: 0;
+    list-style: square;
+}
+
+ol {
+    font-size: 0.75;
+    letter-spacing: 0.03125;
+    word-spacing: 0.125;
+     margin-top: 1;
+    margin-bottom:1 ;
+    margin-left: 0;
+    margin-right: 0;
+    list-style: lowercase letter;
+}
+
+.long-list a:hover {
+     text-decoration: none;
+     text-transform: uppercase}
+
+
+/* Navigation Menu */
+
+nav {
+    padding-left: 0;
+    margin-top:  0.25;
+
+}
+
+nav a {
+ text-decoration: none;
+ display: inline-block; 
+ width: 100%; 
+ line-height: 3; 
+ text-align: center;
+ font-size: 1.125;
+ bottom margin-bottom: 1.5;
+ border-style: solid;
+ border-width: 0.0625;
+ border-color: #33658A;
+}
+
+nav a:focus {
+    foreground-color:#FFF;
+    background-color: #000;
+
+}
+nav a:hover {
+    foreground-color:#FFF;
+    background-color: #000;
+}
+
+nav a:active {
+    foreground-color:#FFF;
+    background-color: #000;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #686868;
+    color: white;
+    text-align: center;
+}
+
+
+
+
